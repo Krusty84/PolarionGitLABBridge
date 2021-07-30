@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="com.sdis.workflow.gitlabissues" version="1.0.0">
+
+	<contribution configuration-id="com.polarion.alm.tracker.workflow.functions">
+		<function name="PushIssueToGitlab"
+			clazz="com.sdis.workflow.gitlabissues.functions.PushIssueToGitlab">
+			<parameter name="Field" id="field" />
+		</function>
+	</contribution>
+	
+	
+	<!-- 	<contribution
+		configuration-id="com.polarion.alm.tracker.workflow.conditions">
+		<condition name="CommentExist"
+			clazz="com.polarion.example.workflow.conditions.CommentExist">
+		</condition>
+	</contribution>-->
+	
+	
+</module>
